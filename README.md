@@ -62,4 +62,11 @@ Last time I checked, PIL was removed from homebrew and from pip. So install Pill
 You can also do:
   - tidy - After you chose to delete a photo from your project's working directory, tidy 
            the database.
-  - check - Use 'check' to go over eye positions of all or certain photos. 
+  - check - Use 'check' to go over eye positions of all or certain photos.
+
+IMPORTANT NOTICE
+---------------
+Due to changes in the current version of opencv in homebrew on Mac OS X
+ELIME sadly cannot be used here. A rewrite to use the new cv2 python API seems the only
+way to solve this. Maybe installation of an older opencv is also an OK workaround.
+ 
